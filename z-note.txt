@@ -1,0 +1,15 @@
+slice gives us a way to store a slice of data and gives us all the thing we need to change and retrieve the data
+
+createSlice function gives us back some stuff and assign it to the slice variable where we get our action and reducer from which we can export, so that all the other component can use them 
+
+in createSlice function we need to pass some properties so it gives us back the right things and we do this with object
+
+reducers response to the action it takes the current state and create new state based on the action payload.
+
+redux passes the current state and the action behind the scenes. state is current atate[array] and action contains the type and the payload and it comes form our component
+
+so anytime we call variable:action from our component this is the reducer that will handle that action(what we are doing here is updating the state)
+
+useSelector((state) => state.todos) the state value that get passed into the function here is the entire state tree that is stored in redux. so if we have multiple slices of state this will return the whole thing
+
+ 
