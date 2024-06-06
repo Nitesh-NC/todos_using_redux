@@ -1,3 +1,4 @@
+https://github.com/nc00gt/todos_using_redux/assets/121938855/2ba812d8-a81e-45b5-840b-720bc425d6f6
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
